@@ -1,0 +1,281 @@
+body {
+        font-family: sans-serif;
+        
+    }
+    .Nursultan {
+    display: inline-block;
+    vertical-align: middle;
+}
+.to-uppercase {
+    text-transform: uppercase;
+}
+.clearfix {
+    clear: both;
+}
+
+.zero {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Nursultan img {
+    width: 64px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+} 
+.main-navigation__item a:hover {
+    color: pink;
+}
+.main-navigation__item.active a {
+   color: pink;
+}
+
+.Main-section {
+    padding: 100px 30px;
+}
+.Main-section > div {
+    width: 50%;
+    float: left;
+}
+.images {
+    text-align: right;
+}
+.a {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+.b {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+.c {
+    color: #05364e;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.tg a {
+    color: #8Fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+
+}
+.tg a:hover i {
+    color: blue;
+}
+
+.d {
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.me {
+    padding: 100px 0;
+}
+
+.me > div {
+    width: 50%;
+    float: left;
+}
+.ElonMusk-img img {
+    width: 60%;
+}
+
+.info {
+    letter-spacing: 2px;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section-info {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-top: 5px;
+}
+.button {
+    border: none;
+    background-color: blue;
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blur-line {
+   display:  inline-block;
+   margin-left: 5px;
+   width: 80px;
+   height: 4px;
+   background-color: purple;
+   filter: blur(4px);
+   border-radius: 4px;
+}
+
+.about_ElonMusk {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #797979;
+}
+
+.about_me {
+    margin-top: 40px;
+}
+
+.services_1 {
+    letter-spacing: 2px;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+.services_2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-top: 5px;
+}
+.services {
+    padding-top: 100px;
+}
+.services_4 {
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: azure;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.services_5 {
+    width: 30%;
+}
+.services_6 {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.services_7 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #797979;
+}
+.services_8 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+.services_4:hover {
+    background-color: blueviolet;
+}
+
+.services_4:hover .services_6,
+.services_4:hover .services_7,
+.services_4:hover .services_8 {
+    color: #FFFF;
+}
+
+.cleints_1 {
+    letter-spacing: 2px;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.cleints_2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-top: 5px;
+}
+
+.cleints {
+    padding: 100px;
+}
+.cleints_4 > div {
+       width: 50%;
+       float: left;
+       box-sizing: border-box;
+}
+
+.cleints_5 {
+    width: 100%;
+}
+.cleints_7 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.cleints_8 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+.cleints_9 {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+.cleints_10 {
+    color: yellow;
+}
+.ddd {
+    color: #797979;
+}
